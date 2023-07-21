@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejemplo de archivo HTML con CSS y JS</title>
+		
+		<!-- Agregar los estilos CSS directamente en la etiqueta <style> -->
+		<style>
+			body {
+			  font-size: 18px;
+			  font-family: Arial, sans-serif;
+			  color: #333;
+			}
+			h1 {
+			  color: #007bff;
+			}
+			.btn {
+			  display: inline-block;
+			  padding: 0.5rem 1rem;
+			  margin: 0.5rem;
+			  border: none;
+			  border-radius: 0.25rem;
+			  color: #fff;
+			  background-color: #007bff;
+			  font-size: 1rem;
+			  text-align: center;
+			  cursor: pointer;
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+		<!-- Agregar los scripts JS directamente en la etiqueta <script> -->
+		<h1>Basico</h1>
+		
+		<p>prueba de GitHub</p>
+		
+		<button class="btn">Haz clic aquí</button>
+		
+		<script>
+			// Agregar los scripts y funciones necesarias dentro de la etiqueta <script>
+			const btn = document.querySelector('.btn');
+			
+			btn.addEventListener('click', function() {
+			  alert('Has hecho clic en el botón!');
+			});
+		</script>
+	</body>
+</html>
